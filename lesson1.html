@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML BASICS</h1>
+    <h2>HTML Lists</h1>
+    <h3>Ordered Lists</h3>
+    <ol type="A">
+        <li>Software Engineering Essentials</li>
+        <li>Python Development</li>
+        <li>Web Development</li>
+        <li>Database</li>
+        <li>Startup Building</li>
+
+    </ol>
+
+    <h3>Unordered Lists</h3>
+    <ul type="circle">
+        <li>Mr Chakin</li>
+        <li>Mrs Susan</li>
+        <li>Mr Eddy</li>
+        <li>Mr Gerald</li>
+        <li>Mrs Nelly</li>
+    </ul>
+
+    <h3>Description Lists</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <dt>SQL</dt>
+        <dd>Structured Query Language</dd>
+    </dl>
+
+    <h2>HTML Images</h2>
+    <p>
+     <img src="web dev plp img1.jpg" alt="A busy city in the United States" height="350" width="400">
+    </p>
+    <p>
+     <img src="https://images.pexels.com/photos/7161184/pexels-photo-7161184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Beautiful flowers" height="350" width="400" loading="lazy">
+    </p>
+
+    <h2>HTML Tables</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kelly</td>
+                <td>kellyochieng249@gmail.com</td>
+                <td>Kenya</td>
+            </tr>
+            <tr>
+                <td>George</td>
+                <td>georgeochibo13249@gmail.com</td>
+                <td>England</td>
+            </tr>
+            <tr>
+                <td>Duncan</td>
+                <td>duncanomondi26@gmail.com</td>
+                <td>South Africa</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+    <h2>HTML Forms</h2>
+    <form action="" method="">
+        <label for="name">Name :</label>
+        <input type="text" name="studente_name" id="student_name" placeholder="George Kelly" required><br><br>
+
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender" id="gender" value="female"> Female
+        <input type="radio" name="gender" id="gender" value="male"> Male
+        <br><br>
+        <label for="hobbies">Hobbies :</label>
+        <input type="checkbox" name="hobbies" id="hobbies" value="sports"> Sports
+        <input type="checkbox" name="hobbies" id="hobbies" value="music"> Music
+        <input type="checkbox" name="hobbies" id="hobbies" value="arts"> Arts
+        <br><br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+        <option>--Select Country--</option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Rwanda">Rwanda</option>
+        </select>
+        <br><br>
+        <label for="description">Describe yourself :</label>
+        <textarea name="description" id="description"></textarea>
+        <br><br>
+        <button type="submit">Register</button>
+        <button type="submit">Cancel</button>
+
+    </form>
+
+
+</body>
+</html>
